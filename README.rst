@@ -1,7 +1,7 @@
 Twitter Plunger
 ===============
 
-Bypass blocked Twitter accounts (Unblocker, NOT really!)
+Chrome extension to bypass blocked Twitter accounts (Unblocker, NOT really!)
 
 .. image:: demo/icon.png
     :align: center
