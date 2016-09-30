@@ -1,0 +1,60 @@
+.plunger-notification {
+  position: fixed;
+  top: 0;
+  right: 30px;
+  width: 300px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: -150px;
+  background-color: #fff;
+  z-index: 9999;
+  padding: 5px;
+  text-align: center;
+  padding-top: 31px;
+  opacity: 0.95;
+  border: #efefef 3px solid;
+  -webkit-animation: show 1s;
+  border-radius: 45px;
+  box-shadow: #4a4a4a 0px 0px 10px 0px;
+}
+
+.plunger-msg {
+  display: -webkit-box;
+  margin: 0 0 0 60px;
+  text-align: center;
+}
+
+.plunger-icon {
+  display: -webkit-box;
+  float: left;
+  height: 50px;
+  margin: -10px 0 0px 10px;
+}
+
+.plunger-text {
+  display: -webkit-box;
+  margin: 0 0 0 40px;
+}
+
+.plunger-subtext {
+  display: -webkit-box;
+  margin: 30px 0 0 -164px;
+  font-size: 0.7em;
+}
+
+.plunger-toggle {
+  color: #d32227 !important;
+  font-size: 0.8em;
+  margin: -27px 0px 0px -25px;
+  display: -webkit-box;
+  height: 15px;
+}
+
+.plunger-toggle:hover {
+  color: #b1181c !important;
+}
+
+@-webkit-keyframes show{
+  0%{opacity:0.0}
+  100%{opacity:0.95}
+}
